@@ -1,0 +1,12 @@
+{
+	"name": "ng-zendesk-orm",
+	"version": "0.1.0",
+	"license": "GPL-2.0-or-later",
+	"peerDependencies": {
+		"@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+		"@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+	},
+	"dependencies": {
+		"ng-http-sugar": "^0.1.0"
+	}
+}
