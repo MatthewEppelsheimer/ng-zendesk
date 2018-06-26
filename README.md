@@ -14,6 +14,8 @@ A Zendesk API interaction wrapper for Angular applications.
 
 First, install the module in your Angular 6.x or later project with `npm install --save 'ng-zendesk-orm'`.
 
+Then import the `ZendeskORMModule` in your root module. Get the symbol with `import { ZendeskORMModule } from 'ng-zendesk-orm';`.
+
 ### 2. Configure the module for your Zendesk Account ###
 
 Second, configure the module for your own Zendesk integration. Do this by providing an object that implements the `ZendeskConfig` interface in your application's root module, using the `ZENDESK_CONFIG` injection token. 
